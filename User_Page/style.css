@@ -1,0 +1,52 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+.main-wrapper {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.users {
+    width: 70px;
+    height: 40px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.active {
+    background-color: azure;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 5px;
+    width: 500px;
+    height: 200px;
+    border-top-left-radius: 0;
+}
+
+.cont {
+    width: 250px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mistake {
+    color: red;
+}
